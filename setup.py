@@ -1,15 +1,14 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
-from setuptools import find_packages
 
 
-setup(name='py_lru_cache',
-      version='0.1.4',
-      description="""LRU cache for python. Provides a dictionary-like object as well as a method decorator.""",
-      author='Chris Stucchio',
-      author_email='stucchio@gmail.com',
+setup(name='py3_lru_cache',
+      version='0.1.6',
+      description="""LRU cache for python. Provides a dictionary-like object as well as a method decorator. A fork of Chris Stucchio's py_lru_cache""",
+      author='Alan Mock',
+      author_email='pypi.org@alanmock.com',
       license='Dual: GPL v3 or BSD',
-      url='https://github.com/stucchio/Python-LRU-cache',
+      url='https://github.com/amock/Python-LRU-cache',
       packages = ['lru'],
      )
